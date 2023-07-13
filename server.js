@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const usersRouters = require('./routes/users')
+const usersRouters = require('./src/routes/users')
 
 app.use('/users', usersRouters);
 
